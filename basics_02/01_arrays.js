@@ -41,6 +41,6 @@ slice():
 Copies a portion of an array into a new array.
 Does not change the original array.
 
-splice():
+splice(): 
 Modifies the original array by adding, removing, or replacing elements in place.
 */
