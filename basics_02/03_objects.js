@@ -52,6 +52,16 @@ console.log(jsUser.greetingTwo() );
 /*
   
 ## The reason you're seeing "undefined" printed in the VS Code terminal is because the functions `jsUser.greetings()` and `jsUser.greetingTwo()` do not explicitly return any value. Therefore, they implicitly return `undefined`, which is being printed to the console.
+
+
+Here's a step-by-step breakdown of what's happening when you call `console.log(jsUser.greetings())`:
+
+- `jsUser.greetings()` is executed.
+- The function runs and completes its code.
+- Since there is no explicit `return` statement, the function implicitly returns `undefined`.
+- `console.log(undefined)` is called, and `undefined` is printed to the console.
+
+
 ## To avoid printing "undefined", you can modify the functions to explicitly return a value or remove the `console.log()` calls when invoking them. For example:
 
 ```javascript
